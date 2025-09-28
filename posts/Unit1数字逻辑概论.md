@@ -3,6 +3,7 @@ title: 数字电路第一章笔记
 date: 2025-09-28
 tags: [数电,Tech]
 pinned: false
+cover: /2.webp
 ---
 
 
