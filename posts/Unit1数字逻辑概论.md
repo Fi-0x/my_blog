@@ -136,7 +136,7 @@ pinned: false
 
 1. **BCD码(binary-coded-decimal)**：二-十进制码，用4位进制数来表示1位十进制中的0~9个十个数码。
 
-常见的BCD码：![](pictures\56.png)
+常见的BCD码：![](pictures1\56.png)
 
 8421码：有权码，位权为8421
 
@@ -152,7 +152,7 @@ pinned: false
    
      - 后$2^n$组代码将n位格雷码倒序排放，最高位补1
    
-     - ![](pictures\58.png)
+     - ![](pictures1\58.png)
    
        特性：每次格雷码只变换一个数字
    
@@ -184,31 +184,31 @@ pinned: false
 1. **与运算**：
    - 逻辑：只有当一件事的几个条件都具备后，这件事才发生
    - 符号：$L=A\cdot B$其中$\cdot$符号称为与运算符号，在补引起混淆的情况下，$\cdot$符号可以省略
-   - ![](pictures\与逻辑.png)
+   - ![](pictures1\与逻辑.png)
 2. **或运算**：
    - 逻辑：当一件事情只要有一个条件得到满足，这件事情就会发生
    - 符号：$L=A+B$
-   - ![](pictures\或逻辑.png)
+   - ![](pictures1\或逻辑.png)
 3. 非运算：
    - 逻辑：一件事情的发生以其相反条件为依据
    - 表达：$L=\overline{A}$
-   - ![](pictures\非运算.png)
+   - ![](pictures1\非运算.png)
 4. 常用符合逻辑运算：
    - 在实际运算中，更多使用的是它们的组合逻辑运算
    - **与非运算**：与运算和非运算的结合 
      - 逻辑表达式：$L=\overline{A\cdot B}$
-     - ![](pictures\与非运算.png)
+     - ![](pictures1\与非运算.png)
    - **或非运算**：
      - 逻辑表达式：$L=\overline{A+B}$
-     - ![](pictures\或非运算.png)
+     - ![](pictures1\或非运算.png)
    - **异或运算**：
      - 逻辑：两个输入状态相同时，输出为0；两个输入状态不同时，输出为1。
      -  逻辑表达式：$L=\overline{A}B+A\overline{B}=A\oplus B$
-     - ![](pictures\异或运算.png)
+     - ![](pictures1\异或运算.png)
    - **同或运算**：
      - 逻辑：两个输入状态相反时，输出为1，两个输入状态相同时，输出为0。
      - 逻辑表达式：$L=AB+\overline{A}\overline{B}=A\odot B$
-     - ![](pictures\同或运算.png)
+     - ![](pictures1\同或运算.png)
 
 ## 1.6 逻辑函数及其表示方法
 
