@@ -20,7 +20,7 @@ interface Post {
   tags?: string[]
   wordCount: number
   cover?: string
-  excerpt: string | undefined
+  excerpt?: string | undefined
   pinned?: boolean
 }
 
@@ -51,18 +51,17 @@ function getPost(md: any, file: string, postDir: string): Post {
   }
 
   const src = fs.readFileSync(fullPath, 'utf-8')
-  const { data, excerpt, content } = matter(src, { excerpt: true })
+  const { data, excerpt, content } = matter(src)
   const post: Post = {
     id: id++,
     title: data.title,
-    content: content,
+    content:content,
     href: `posts/${file.replace(/\.md$/, '.html')}`,
     create: +(new Date(data.date) || timestamp),
     update: timestamp,
     tags: data.tags,
     wordCount: countWords(content),
     cover: data.cover,
-    excerpt: excerpt,
     pinned: !!data.pinned
   }
 
