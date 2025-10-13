@@ -62,6 +62,7 @@ function getPost(md: any, file: string, postDir: string): Post {
     tags: data.tags,
     wordCount: countWords(content),
     cover: data.cover,
+    excerpt:excerpt,
     pinned: !!data.pinned
   }
 

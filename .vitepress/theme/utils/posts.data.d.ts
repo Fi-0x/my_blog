@@ -1,7 +1,7 @@
 export interface PostData {
   id: number
   title: string
-  content?: string
+  content: string
   href: string
   create: number
   update: number
